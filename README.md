@@ -22,3 +22,6 @@ Laravel Base Project is a a upgraded version of Laravel Framework. We have desig
 ## Installation & setup
 
 - Download the project from our [Git repository](https://www.laravel.com/).
+- Extract the project to particular folder.
+- Open terminal inside of project folder & run a this command : 
+- <img src="https://img.shields.io/badge/----command-%20%20composer%20update-red" alt="composer update">
