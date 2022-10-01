@@ -20,3 +20,5 @@ Laravel Base Project is a a upgraded version of Laravel Framework. We have desig
 - All posible types of database drivers avilability.
 
 ## Installation & setup
+
+- Download the project from our [Git repository](https://www.laravel.com/).
