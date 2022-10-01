@@ -7,4 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Laravel Base Project
+
+Laravel Base Project is a a upgraded version of Laravel Framework. We have designed custom functions which makes your work easy & efficient. We have multiple extra ordinary functionalities which could be perform by writing a single line of code, as such:
+
+- Simple and Fast
+- Advance Logger & Throttle api limits.
+- Automated Mailing system.
+- Auto encryption & Decryption(For texts & requests both)
+- Standered Fuctions for thrid parties.
+- Standered methods for notifications & errors.
+- Writing provisions for master & salve type of Databases.
+- All posible types of database drivers avilability.
