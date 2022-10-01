@@ -32,4 +32,4 @@ Laravel Base Project is a a upgraded version of Laravel Framework. We have desig
 ## Helpers
 Helper is a way which helpes you to access [documentation](https://miheer-mantra.gitbook.io/documentation/) as fast.
 - > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20create%3Ahelper-%20-lightgrey" alt="php artisan create:helper">
-- > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20delete%3Ahelper-%20-lightgrey" alt="php artisan delete:helper">
+- > Install helper using command <img src="https://ourimagehosting.com/image/pADUP" alt="php artisan delete:helper">
