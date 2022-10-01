@@ -24,4 +24,5 @@ Laravel Base Project is a a upgraded version of Laravel Framework. We have desig
 - Download the project from our [Git repository](https://www.laravel.com/).
 - Extract the project to particular folder.
 - Open <img src="https://img.shields.io/badge/Terminal------blue" alt="Terminal"> inside of project folder & run a this command : <img src="https://img.shields.io/badge/composer%20update-%20-lightgrey" alt="composer update">
-- Once composer installed successfullt, copy <img src="https://img.shields.io/badge/.env.example-%20-yellow" alt="Terminal">  file as <img src="https://img.shields.io/badge/.env-%20-yellow" alt="Terminal">  file.
+- Let it install........
+- Once composer installed successfully, copy <img src="https://img.shields.io/badge/.env.example-%20-yellow" alt="Terminal">  file and paste it as <img src="https://img.shields.io/badge/.env-%20-yellow" alt="Terminal">  file.
