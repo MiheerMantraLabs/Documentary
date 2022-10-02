@@ -155,6 +155,7 @@ Once you created an email template, you can look a preview of your email, using 
     ));
 
 where,
+
 ***folder*** = `folder name of template (ex-default,custom)` <sup>( required)<sup>
 
 ***template.html*** = `template name (ex-otp_view.html)` <sup>( required)<sup>
@@ -174,6 +175,7 @@ To send the email we have a funtion ***`SendNofityMail()`***
     ),"SUCCESS_MESSAGE");
 
 where,
+
 ***notification_id*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( required)<sup>
 
 
