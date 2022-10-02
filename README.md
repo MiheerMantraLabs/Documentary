@@ -45,3 +45,5 @@ To get this logger go to following repository ***`___dir___/storage/logs/logger/
 All days files created saperataly daily basis, where you can check logs in the given way : 
 - >Go to repo ***`___dir___/storage/logs/logger/`*** 
 - >Go to file of particular date.
+- >Details are store in the given ways : 
+    - > **`_date_   _time_  _url_   _IP_address_    _Req_Methods_   _Req_Datas_ _Header_Data_`**
