@@ -70,7 +70,12 @@ This works for `API ROUTES` only.
         "SMTPSecure":"tls",
         "SMTPHost":"smtp.mailtrap.io",
         "SMTPPort":"2525",
-        "Username":"8497962f81a386",
-        "Password":"e1a750518f307c",
-        "Sendername":"8497962f81a386"
+        "Username":"example@example.com",
+        "Password":"___e1a750518f307c___",
+        "Sendername":"example@example.com"
        }`
+**Step : 1 - Email Templates**
+- > There are two ways to use templates
+    - >**FIRST : DEFAULT**
+        - In this method we provides you auto created templates which you can use
+        - To get these templates go to ***`___dir___/storage/notifyTheme/default/`*** and you will get multiples files overthere, which are pre-created themes
