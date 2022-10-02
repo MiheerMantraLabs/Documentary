@@ -48,7 +48,7 @@ To get this logger go to following repository ***`___dir___/storage/logs/logger/
 - >File formated as (For REQUESTED DATA) : **`date___LOG_Request.txt`**
 - >File formated as (For RESPONCE DATA) : **`date___LOG_Responce.txt`**
 - >Details are store in the given ways : 
-    -  **`_Date_   /   _Time_  /  _Url_    /   _IP_Address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
+    - >**`_Date_   /   _Time_  /  _Url_    /   _IP_Address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
 
 ## Api Throttle Limits
 
