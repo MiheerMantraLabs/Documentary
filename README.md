@@ -99,24 +99,44 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-<sup>***`"N-10001":{
-        "NOTIFICATION_CODE":"N-10001",
-        "NOTIFICATION_TYPE":"email",
-        "RECIEVER":"miheerpnd@gmail.com",
-        "TEMPLATE_SECTION":"default",
-        "TEMPLATE_NAME":"otp_view.html",
-        "EMAIL_SUBJECT":"Hello miheer",
-        "EMAIL_BODY":{
-            "title":"Laravel",
-            "welcome":"Hi, there",
-            "message":"Your otp for <a>email@email.com </a> is :",
-            "otp":"000000",
-            "link":"http://www.laravel.com/",
-            "notice":"You have received this mandatory service announcement to update you about important changes to Laravel or your account.",
-            "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",
-            "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
-        }
-    }`***</sup>
+<sup>***`"N-10001":{`
+
+        `"NOTIFICATION_CODE":"N-10001",`
+
+        `"NOTIFICATION_TYPE":"email",`
+
+        `"RECIEVER":"miheerpnd@gmail.com",`
+
+        `"TEMPLATE_SECTION":"default",`
+
+        `"TEMPLATE_NAME":"otp_view.html",`
+
+        `"EMAIL_SUBJECT":"Hello miheer",`
+
+        `"EMAIL_BODY":{`
+
+            `"title":"Laravel",`
+
+            `"welcome":"Hi, there",`
+
+            `"message":"Your otp for <a>email@email.com </a> is :",`
+
+            `"otp":"000000",`
+
+            `"link":"http://www.laravel.com/",`
+
+            `"notice":"You have received this mandatory service announcement to update`
+
+            `you about important changes to Laravel or your account.",`
+
+            `"contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",`
+
+            `"banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/`
+
+            `laravel_logo_icon_170314.png"`
+
+        `}`
+    `}`***</sup>
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
