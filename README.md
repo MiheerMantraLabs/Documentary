@@ -40,6 +40,8 @@ Helper is a way which helpes you to access [documentation](https://miheer-mantra
 ## Advance Logger
 
 This function provides you advance logging system.
-To get this logger go to following repository ***`storage/logs/logger/`*** and you can see all the logged of the days is stored.
+To get this logger go to following repository ***`___dir___/storage/logs/logger/`*** and you can see all the logged of the days is stored.
 
 All days files created saperataly daily basis, where you can check logs in the given way : 
+- >Go to repo ***`___dir___/storage/logs/logger/`*** 
+- >Go to file of particular date.
