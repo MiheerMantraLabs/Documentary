@@ -84,4 +84,26 @@ This works for `API ROUTES` only.
     - >**SECOND : CUSTOM THEME**
         - In this method you can create custom themes in side of ***`___dir___/storage/notifyTheme/custom/`***(If custom folder not available there you can create one)
 
-- **MUST READ :** If you want to replace any thing section in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link etc)`*** you can make a key in place of that section as : **`___SECTION-NAME___`** (Both side double underscore).  
+- **MUST READ :** If you want to replace any thing section in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link etc)`*** you can make a key in place of that section as : **`__ __SECTION-NAME__ __`** (Both side double underscore).  
+
+**Step : 1 - Configer Email & It's Template**
+- >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
+- >Define you email in such ways
+***"N-10001":{
+        "NOTIFICATION_CODE":"N-10001",
+        "NOTIFICATION_TYPE":"email",
+        "RECIEVER":"miheerpnd@gmail.com",
+        "TEMPLATE_SECTION":"default",
+        "TEMPLATE_NAME":"otp_view.html",
+        "EMAIL_SUBJECT":"Hello miheer",
+        "EMAIL_BODY":{
+            "title":"Laravel",
+            "welcome":"Hi, there",
+            "message":"Your otp for <a>email@email.com </a> is :",
+            "otp":"000000",
+            "link":"http://www.laravel.com/",
+            "notice":"You have received this mandatory service announcement to update you about important changes to Laravel or your account.",
+            "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",
+            "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
+        }
+    }***
