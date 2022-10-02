@@ -144,10 +144,14 @@ If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php va
 **STEP : 4 - Preview Email**
 
 Once you created an email template, you can look a preview of your email, using a function
-{
+
     preview_notify("folder","template.html",array(
 
-    "Header"=>"Hi, there"
-    
+    "Header"=>"Hi, there",
+    "footer"=>"Copyright, 2022"
+
     ));
-}
+
+where, `folder = folder name of template (ex-default,custom)`
+`template.html => template name (ex-otp_view.html)`
+`array() with keys = replacement of section in email (ex-header,footer,body)`
