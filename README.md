@@ -143,19 +143,38 @@ Each keys is required expect details inside `EMAIL_BODY` key those are replacabl
 
 If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php variables place them as `{$KEY_NAME}`
 
-**STEP : 4 - Preview Email**
+**Step : 4 - Preview Email**
 
 Once you created an email template, you can look a preview of your email, using a function
 
-    preview_notify("folder","template.html",array(
+    echo preview_notify("folder","template.html",array(
 
     "Header"=>"Hi, there",
     "footer"=>"Copyright, 2022"
 
     ));
 
-where, ***folder*** = `folder name of template (ex-default,custom)`
+where, ***folder(*)*** = `folder name of template (ex-default,custom)`
 
-***template.html*** = `template name (ex-otp_view.html)`
+***template.html(*)*** = `template name (ex-otp_view.html)`
 
 ***array() with keys*** = `replacement of section in email (ex-header,footer,body)`
+
+**Step : 5 - Send Email**
+
+Once you finished all the steps & after previewing the email theme you are readdy to send the email now.
+
+To send the email we have a funtion
+
+    SendNofityMail('NOTIFICATION_ID',array(
+        "otp" => $otp,
+        "name" => $name
+    ),"SUCCESS_MESSAGE");
+
+where, ***NOTIFICATION_ID(*)*** = `JSON NOTIFICATION ID (ex-N-10001)`
+
+***array() with keys*** = `replacement of php variables from json in email (ex-{$key_names})`
+
+**SUCCESS_MESSAGE** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
+
+**Step : 5 - Send Email**
