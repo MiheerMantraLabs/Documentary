@@ -181,6 +181,6 @@ where,
 
 ***`array() with keys`*** = `replacement of php variables from json in email (ex-{$key_names})`
 
-**`success_message`** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
+**`success_message`** = `Custom success message(Ex-EMAIL HAS BEEN SENT ON &email)`
 
 ## Pusher Notification
