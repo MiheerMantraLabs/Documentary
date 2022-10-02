@@ -83,6 +83,7 @@ This works for `API ROUTES` only.
         "Sendername":"example@example.com"
     }
 
+    "name"
 
 
 **Step : 2 - Email Templates**
