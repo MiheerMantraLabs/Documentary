@@ -65,7 +65,7 @@ This works for `API ROUTES` only.
 **Step : 1 - Configer mailer records**
 - >Go to file ***`___dir___/notify/email/config.json`***
 - >Files all the details correct over there from you mail provider in the following way given below : 
-    - {
+    - `{
 
         "SMTPDebug":"3",
 
@@ -80,7 +80,8 @@ This works for `API ROUTES` only.
         "Password":"___e1a750518f307c___",
 
         "Sendername":"example@example.com"
-    }
+    
+    }`
 
 **Step : 2 - Email Templates**
 - > There are two ways to use templates
