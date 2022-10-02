@@ -34,4 +34,4 @@ Helper is a way which helpes you to access [documentation](https://miheer-mantra
 - > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20create%3Ahelper-%20-lightgrey" alt="php artisan create:helper">
 - > It will `create` a new fab <img src="https://ourimagehosting.com/images/2022/10/01/image.png" alt="fab" width="35px" hieght="35px">
 - > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20delete%3Ahelper-%20-lightgrey" alt="php artisan delete:helper">
-- > It will `delete` a this fab <img src="https://ourimagehosting.com/images/2022/10/01/image.png" alt="fab" width="35px" hieght="35px">
+- > It will `delete` a this  fab <img src="https://ourimagehosting.com/images/2022/10/01/image.png" alt="fab" width="35px" hieght="35px">
