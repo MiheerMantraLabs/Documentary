@@ -156,12 +156,12 @@ Once you created an email template, you can look a preview of your email, using 
 
 where,
 
-***folder*** = `folder name of template (ex-default,custom)` <sup>( required)<sup>
+***`folder`*** = `folder name of template (ex-default,custom)` <sup>( required)<sup>
 
-***template.html*** = `template name (ex-otp_view.html)` <sup>( required)<sup>
+***`template.html`*** = `template name (ex-otp_view.html)` <sup>( required)<sup>
 
 
-***array() with keys*** = `replacement of section in email (ex-header,footer,body)`
+***`array() with keys`*** = `replacement of section in email (ex-header,footer,body)`
 
 **Step : 5 - Send Email**
 
@@ -176,11 +176,11 @@ To send the email we have a funtion ***`SendNofityMail()`***
 
 where,
 
-***notification_id*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( required)<sup>
+***`notification_id`*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( required)<sup>
 
 
-***array() with keys*** = `replacement of php variables from json in email (ex-{$key_names})`
+***`array() with keys`*** = `replacement of php variables from json in email (ex-{$key_names})`
 
-**success_message** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
+**`success_message`** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
 
 ## Pusher Notification
