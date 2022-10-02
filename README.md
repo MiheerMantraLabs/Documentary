@@ -154,8 +154,8 @@ Once you created an email template, you can look a preview of your email, using 
 
     ));
 
-where, folder = `folder name of template (ex-default,custom)`
+where, ***folder*** = `folder name of template (ex-default,custom)`
 
-template.html = `template name (ex-otp_view.html)`
+***template.html*** = `template name (ex-otp_view.html)`
 
-array() with keys = `replacement of section in email (ex-header,footer,body)`
+***array() with keys*** = `replacement of section in email (ex-header,footer,body)`
