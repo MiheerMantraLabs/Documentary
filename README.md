@@ -82,9 +82,7 @@ This works for `API ROUTES` only.
         "Password":"___e1a750518f307c___",
 
         "Sendername":"example@example.com"
-    
     }
-    
 }
 
 
