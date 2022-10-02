@@ -86,7 +86,7 @@ This works for `API ROUTES` only.
 
 - **MUST READ :** If you want to replace any thing section in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link etc)`*** you can make a key in place of that section as : **`__ __SECTION-NAME__ __`** (Both side double underscore).  
 
-**Step : 3 - Configer Email & It's Template**
+**Step : 3 - Configer Email **
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
@@ -110,3 +110,5 @@ This works for `API ROUTES` only.
     }`***</sup>
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
+
+If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php variables place them as `{$KEY_NAME}`
