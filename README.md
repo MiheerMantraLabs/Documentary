@@ -101,41 +101,43 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such way with a notification key like this `"N-1000":{ YOUR_CODE_HERE }`
 
-{
-    
-    "NOTIFICATION_CODE":"N-10001",
+Notification Config Code
 
-    "NOTIFICATION_TYPE":"email",
+    "N-10001":{
+        
+        "NOTIFICATION_CODE":"N-10001",
 
-    "RECIEVER":"miheerpnd@gmail.com",
+        "NOTIFICATION_TYPE":"email",
 
-    "TEMPLATE_SECTION":"default",
+        "RECIEVER":"miheerpnd@gmail.com",
 
-    "TEMPLATE_NAME":"otp_view.html",
+        "TEMPLATE_SECTION":"default",
 
-    "EMAIL_SUBJECT":"Hello miheer",
+        "TEMPLATE_NAME":"otp_view.html",
 
-    "EMAIL_BODY":{
+        "EMAIL_SUBJECT":"Hello miheer",
 
-        "title":"Laravel",
+        "EMAIL_BODY":{
 
-        "welcome":"Hi, there",
+            "title":"Laravel",
 
-        "message":"Your otp for <a>email@email.com </a> is :",
+            "welcome":"Hi, there",
 
-        "otp":"000000",
+            "message":"Your otp for <a>email@email.com </a> is :",
 
-        "link":"http://www.laravel.com/",
+            "otp":"000000",
 
-        "notice":"You have received this mandatory service announcement to updateyou about important changes to Laravel or your account.",
+            "link":"http://www.laravel.com/",
 
-        "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA,231303<br>India",
+            "notice":"You have received this mandatory service announcement to updateyou about important changes to Laravel or your account.",
 
-        "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512laravel_logo_icon_170314.png"
+            "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA,231303<br>India",
+
+            "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512laravel_logo_icon_170314.png"
+
+        }
 
     }
-
-}
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
@@ -152,6 +154,8 @@ Once you created an email template, you can look a preview of your email, using 
 
     ));
 
-where, `folder = folder name of template (ex-default,custom)`
-`template.html => template name (ex-otp_view.html)`
-`array() with keys = replacement of section in email (ex-header,footer,body)`
+where, folder = `folder name of template (ex-default,custom)`
+
+template.html = `template name (ex-otp_view.html)`
+
+array() with keys = `replacement of section in email (ex-header,footer,body)`
