@@ -99,7 +99,7 @@ This works for `API ROUTES` only.
 
 **Step : 3 - Configer Email**
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
-- >Define you email in such way with a notification key like this `"N-1000":{ YOUR_CODE_HERE }`
+- >Define you email in such way with a notification key like this `"N-10001":{ YOUR_CODE_HERE }`
 
 Notification Config Code
 
@@ -178,3 +178,5 @@ where, ***notification_id*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( requir
 ***array() with keys*** = `replacement of php variables from json in email (ex-{$key_names})`
 
 **success_message** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
+
+## Pusher Notification
