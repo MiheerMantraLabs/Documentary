@@ -154,9 +154,10 @@ Once you created an email template, you can look a preview of your email, using 
 
     ));
 
-where, ***folder(*)*** = `folder name of template (ex-default,custom)`
+where, ***folder* *** = `folder name of template (ex-default,custom)` <sup>(* required)<sup>
 
-***template.html(*)*** = `template name (ex-otp_view.html)`
+***template.html* *** = `template name (ex-otp_view.html)` <sup>(* required)<sup>
+
 
 ***array() with keys*** = `replacement of section in email (ex-header,footer,body)`
 
@@ -171,10 +172,11 @@ To send the email we have a funtion
         "name" => $name
     ),"SUCCESS_MESSAGE");
 
-where, ***NOTIFICATION_ID(*)*** = `JSON NOTIFICATION ID (ex-N-10001)`
+where, ***notification_id* *** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>(* required)<sup>
+
 
 ***array() with keys*** = `replacement of php variables from json in email (ex-{$key_names})`
 
-**SUCCESS_MESSAGE** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
+**success_message** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
 
 **Step : 5 - Send Email**
