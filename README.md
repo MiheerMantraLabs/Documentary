@@ -66,7 +66,7 @@ This works for `API ROUTES` only.
 - >Go to file ***`___dir___/notify/email/config.json`***
 - >Files all the details correct over there from you mail provider in the following way given below : 
 
-    {
+    
 
         "SMTPDebug":"3",
 
@@ -81,11 +81,7 @@ This works for `API ROUTES` only.
         "Password":"___e1a750518f307c___",
 
         "Sendername":"example@example.com"
-    }
-
-    {
-        "name"
-    }
+    
     
 
 
@@ -105,7 +101,7 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-"N-10001":{
+
     
     "NOTIFICATION_CODE":"N-10001",
 
@@ -139,7 +135,7 @@ This works for `API ROUTES` only.
 
     }
 
-}
+
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
