@@ -99,7 +99,8 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-`"N-10001":{
+``"N-10001":{
+
         "NOTIFICATION_CODE":"N-10001",
 
         "NOTIFICATION_TYPE":"email",
@@ -131,7 +132,7 @@ This works for `API ROUTES` only.
             "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
 
         }
-
+        
     }`
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
