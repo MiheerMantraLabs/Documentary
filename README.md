@@ -109,4 +109,4 @@ This works for `API ROUTES` only.
         }
     }***</sup>`
 
-Each keys is required expect `details inside __EMAIL_BODY__ key those are replacable data from template as Header,footer etc`
+Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
