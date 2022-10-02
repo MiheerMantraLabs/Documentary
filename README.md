@@ -83,6 +83,8 @@ This works for `API ROUTES` only.
     
     }`
 
+"nm"
+
 **Step : 2 - Email Templates**
 - > There are two ways to use templates
     - >**FIRST : DEFAULT THEMES**
