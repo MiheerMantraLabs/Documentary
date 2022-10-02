@@ -75,7 +75,7 @@ This works for `API ROUTES` only.
         "Sendername":"example@example.com"
        }`
 
-**Step : 1 - Email Templates**
+**Step : 2 - Email Templates**
 - > There are two ways to use templates
     - >**FIRST : DEFAULT THEMES**
         - In this method we provides you auto created templates which you can use
@@ -86,11 +86,11 @@ This works for `API ROUTES` only.
 
 - **MUST READ :** If you want to replace any thing section in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link etc)`*** you can make a key in place of that section as : **`__ __SECTION-NAME__ __`** (Both side double underscore).  
 
-**Step : 1 - Configer Email & It's Template**
+**Step : 3 - Configer Email & It's Template**
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-<sup>***"N-10001":{
+`<sup>***"N-10001":{
         "NOTIFICATION_CODE":"N-10001",
         "NOTIFICATION_TYPE":"email",
         "RECIEVER":"miheerpnd@gmail.com",
@@ -107,6 +107,6 @@ This works for `API ROUTES` only.
             "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",
             "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
         }
-    }***</sup>
+    }***</sup>`
 
-Each keys is required expect `details insude **EMAIL_BODY** key those are replacable data from template as Header,footer etc`
+Each keys is required expect `details inside **EMAIL_BODY** key those are replacable data from template as Header,footer etc`
