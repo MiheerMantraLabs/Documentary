@@ -89,7 +89,8 @@ This works for `API ROUTES` only.
 **Step : 1 - Configer Email & It's Template**
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
-***"N-10001":{
+
+<sup>***"N-10001":{
         "NOTIFICATION_CODE":"N-10001",
         "NOTIFICATION_TYPE":"email",
         "RECIEVER":"miheerpnd@gmail.com",
@@ -106,4 +107,4 @@ This works for `API ROUTES` only.
             "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",
             "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
         }
-    }***
+    }***</sup>
