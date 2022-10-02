@@ -42,7 +42,7 @@ Helper is a way which helpes you to access [documentation](https://miheer-mantra
 This function provides you advance logging system.
 To get this logger go to following repository ***`___dir___/storage/logs/logger/`*** and you can see all the logged of the days is stored.
 
-**How to implement : **
+**How to implement :**
 - >Go to repo ***`___dir___/storage/logs/logger/`*** 
 - >Go to file of particular date.
 - >File formated as (For REQUESTED DATA) : **`date___LOG_Request.txt`**
@@ -59,3 +59,18 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/public/config.json`***  file and set your limit in integer form.
 - >To check number of throttles of particuler api routes go to ***`___dir___/storage/Throttle`*** open api files as such.
 - >File formated as : **`file_name___date___THROTTLE.txt`**
+
+## E-mail
+
+**Step : 1 - Configer mailer records**
+- >Go to file ***`___dir___/notify/email/config.json`***
+- >Files all the details correct over there from you mail provider in the following way given below : 
+    - `{
+        "SMTPDebug":"3",
+        "SMTPSecure":"tls",
+        "SMTPHost":"smtp.mailtrap.io",
+        "SMTPPort":"2525",
+        "Username":"8497962f81a386",
+        "Password":"e1a750518f307c",
+        "Sendername":"8497962f81a386"
+       }`
