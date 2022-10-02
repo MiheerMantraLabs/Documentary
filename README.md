@@ -42,8 +42,20 @@ Helper is a way which helpes you to access [documentation](https://miheer-mantra
 This function provides you advance logging system.
 To get this logger go to following repository ***`___dir___/storage/logs/logger/`*** and you can see all the logged of the days is stored.
 
-All days files created saperataly daily basis, where you can check logs in the given way : 
+**How to implement : **
 - >Go to repo ***`___dir___/storage/logs/logger/`*** 
 - >Go to file of particular date.
+- >File formated as (For REQUESTED DATA) : **`date___LOG_Request.txt`**
+- >File formated as (For RESPONCE DATA) : **`date___LOG_Responce.txt`**
 - >Details are store in the given ways : 
-    -  **`_date_   /   _time_  /  _url_    /   _IP_address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
+    -  **`_Date_   /   _Time_  /  _Url_    /   _IP_Address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
+
+## Api Throttle Limits
+
+This function newly introduced in laravel base project which is designed to limit yours apis throttles as such.
+This works for `API ROUTES` only.
+
+**How to implement : ** 
+- >Go to ***`___dir___/public/config.json`***  file and set your limit in integer form.
+- >To check number of throttles of particuler api routes go to ***`___dir___/storage/Throttle`*** open api files as such.
+- >File formated as : **`file_name___date___THROTTLE.txt`**
