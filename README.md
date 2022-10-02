@@ -99,8 +99,8 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-<sup>***`"N-10001":{`
-
+<sup>***`"N-10001":{
+    
         `"NOTIFICATION_CODE":"N-10001",`
 
         `"NOTIFICATION_TYPE":"email",`
