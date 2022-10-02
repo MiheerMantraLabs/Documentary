@@ -65,23 +65,23 @@ This works for `API ROUTES` only.
 **Step : 1 - Configer mailer records**
 - >Go to file ***`___dir___/notify/email/config.json`***
 - >Files all the details correct over there from you mail provider in the following way given below : 
-    - `{   `
+    - `{
 
-        `"SMTPDebug":"3",`
+        "SMTPDebug":"3",
 
-        `"SMTPSecure":"tls",`
+        "SMTPSecure":"tls",
 
-        `"SMTPHost":"smtp.mailtrap.io",`
+        "SMTPHost":"smtp.mailtrap.io",
 
-        `"SMTPPort":"2525",`
+        "SMTPPort":"2525",
 
-        `"Username":"example@example.com",`
+        "Username":"example@example.com",
 
-        `"Password":"___e1a750518f307c___",`
+        "Password":"___e1a750518f307c___",
 
-        `"Sendername":"example@example.com"`
+        "Sendername":"example@example.com"
 
-       `}`
+    }`
 
 **Step : 2 - Email Templates**
 - > There are two ways to use templates
@@ -99,7 +99,7 @@ This works for `API ROUTES` only.
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
 - >Define you email in such ways
 
-`"N-10001":{
+"N-10001":{
     
     "NOTIFICATION_CODE":"N-10001",
 
@@ -132,8 +132,8 @@ This works for `API ROUTES` only.
         "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512laravel_logo_icon_170314.png"
 
     }
-    
-}`
+
+}
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
