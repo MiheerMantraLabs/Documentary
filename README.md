@@ -140,3 +140,14 @@ This works for `API ROUTES` only.
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
 If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php variables place them as `{$KEY_NAME}`
+
+**STEP : 4 - Preview Email**
+
+Once you created an email template, you can look a preview of your email, using a function
+{
+    preview_notify("folder","template.html",array(
+
+    "Header"=>"Hi, there"
+    
+    ));
+}
