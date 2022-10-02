@@ -99,7 +99,7 @@ This works for `API ROUTES` only.
 
 **Step : 3 - Configer Email**
 - >Go to ***`___dir___/storage/notifyTheme/notifications.json`***
-- >Define you email in such ways
+- >Define you email in such way with a notification key like this `"N-1000":{ YOUR_CODE_HERE }`
 
 {
     
