@@ -145,7 +145,7 @@ If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php va
 
 **Step : 4 - Preview Email**
 
-Once you created an email template, you can look a preview of your email, using a function
+Once you created an email template, you can look a preview of your email, using a function ***`preview_notify()`***
 
     echo preview_notify("folder","template.html",array(
 
@@ -165,7 +165,7 @@ where, ***folder* *** = `folder name of template (ex-default,custom)` <sup>( req
 
 Once you finished all the steps & after previewing the email theme you are readdy to send the email now.
 
-To send the email we have a funtion
+To send the email we have a funtion ***`SendNofityMail()`***
 
     SendNofityMail('NOTIFICATION_ID',array(
         "otp" => $otp,
