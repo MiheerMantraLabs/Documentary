@@ -74,6 +74,7 @@ This works for `API ROUTES` only.
         "Password":"___e1a750518f307c___",
         "Sendername":"example@example.com"
        }`
+       
 **Step : 1 - Email Templates**
 - > There are two ways to use templates
     - >**FIRST : DEFAULT**
