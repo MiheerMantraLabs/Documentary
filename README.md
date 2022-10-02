@@ -74,9 +74,14 @@ This works for `API ROUTES` only.
         "Password":"___e1a750518f307c___",
         "Sendername":"example@example.com"
        }`
-       
+
 **Step : 1 - Email Templates**
 - > There are two ways to use templates
-    - >**FIRST : DEFAULT**
+    - >**FIRST : DEFAULT THEMES**
         - In this method we provides you auto created templates which you can use
         - To get these templates go to ***`___dir___/storage/notifyTheme/default/`*** and you will get multiples files overthere, which are pre-created themes
+
+    - >**SECOND : CUSTOM THEME**
+        - In this method you can create custom themes in side of ***`___dir___/storage/notifyTheme/custom/`***(If custom folder not available there you can create one)
+
+- > If you want to replace any thing section in the email template dynamically ***like : Header,Footer,Body,Banner,Button,Link etc*** you can make a key in place of that section as : __SECTION-NAME__ (Both side double underscore).  
