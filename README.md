@@ -178,5 +178,3 @@ where, ***notification_id*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( requir
 ***array() with keys*** = `replacement of php variables from json in email (ex-{$key_names})`
 
 **success_message** = `IF YOU WANT TO SHOW CUSTOM MESSAGE WHEN EMAIL SENT THEN YOU CAN PROVIDE IT (Ex-EMAIL HAS BEEN SENT ON &email)`
-
-**Step : 5 - Send Email**
