@@ -84,4 +84,4 @@ This works for `API ROUTES` only.
     - >**SECOND : CUSTOM THEME**
         - In this method you can create custom themes in side of ***`___dir___/storage/notifyTheme/custom/`***(If custom folder not available there you can create one)
 
-- > If you want to replace any thing section in the email template dynamically ***like : Header,Footer,Body,Banner,Button,Link etc*** you can make a key in place of that section as : __SECTION-NAME__ (Both side double underscore).  
+- **MUST READ** If you want to replace any thing section in the email template dynamically ***(like : Header,Footer,Body,Banner,Button,Link etc)*** you can make a key in place of that section as : __SECTION-NAME__ (Both side double underscore).  
