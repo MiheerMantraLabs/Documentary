@@ -225,11 +225,13 @@ First Go To [Pusher](https://pusher.com/) and register your account & register y
 ## Encrypt & Decrypt
 
 **How To Encrypt Data**
+
 To Encrypt the data pass you data through a function **`text_encrypt("Your Text Goes Here")`**
 
     TEXT_ENCRYPT("Hello World!");
 
 **How To Decrypt Data**
+
 To decrypt the data pass you data through a function **`text_decrypt("Your Encrypted Text Goes Here")`**
 
     TEXT_DECRYPT("0nR8web9T0mvcpXx");
