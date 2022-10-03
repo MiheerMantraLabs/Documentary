@@ -190,3 +190,23 @@ where,
 **`success_message`** = `Custom success message(Ex-EMAIL HAS BEEN SENT ON &email)`
 
 ## Pusher Notification
+
+**SEND PUSHER NOTIFICATION**
+
+First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and check for the function to server code using PHP. <img scr="https://ourimagehosting.com/image/poMXs" hieght="50px">
+
+- >Go to file ***`___dir___/notify/pusher/config.php`***
+- >Paste Your Pusher Server Code There.
+- >Call Function **`SendNotifyPush()`**
+
+    SendNotifyPush("message","channel","event"){
+
+    }
+
+where,
+
+***`message`*** = `Notification message to be sent` <sup>( required)<sup>
+
+***`channel`*** = `you can change custom channal if you want to..`
+
+**`event`** = `you can change custome event if you want to...`
