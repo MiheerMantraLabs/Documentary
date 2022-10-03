@@ -201,9 +201,7 @@ First Go To [Pusher](https://pusher.com/) and register your account & register y
 - >Paste Your Pusher Server Code There.
 - >Call Function **`SendNotifyPush()`**
 
-    SendNotifyPush("message","channel","event"){
-
-    }
+    SendNotifyPush("message","channel","event");
 
 where,
 
