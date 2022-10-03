@@ -193,7 +193,7 @@ where,
 
 **SEND PUSHER NOTIFICATION**
 
-First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and go to `dashboard/Get Started` & check for the function to server code using PHP. <img src="https://ourimagehosting.com/images/2022/10/03/image.png" hieght="20px" width="50px" alt="php-select">
+First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and go to `dashboard/Get Started` & check for the function to **server** code using PHP. <img src="https://ourimagehosting.com/images/2022/10/03/image.png" hieght="20px" width="50px" alt="php-select">
 
 <sup>Must read : Do not run the given composer command....</sup>
 
@@ -211,3 +211,11 @@ where,
 ***`channel`*** = `you can change custom channal if you want to..`
 
 **`event`** = `you can change custome event if you want to...`
+
+**RECIEVE PUSHER NOTIFICATION**
+
+First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and go to `dashboard/Get Started` & check for the function to **subscribe** code using Javascript. <img src="https://ourimagehosting.com/images/2022/10/03/image08454e00213b9b41.png" hieght="20px" width="50px" alt="php-select">
+
+- >Copy Javascript Subscribe function both scripts.
+- >Customise them accrodingly.
+- >Paste in the blade page where you want to recieve notification.
