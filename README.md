@@ -199,7 +199,8 @@ First Go To [Pusher](https://pusher.com/) and register your account & register y
 
 - >Go to file ***`___dir___/notify/pusher/config.php`***
 - >Paste Your Pusher Server Code There.
-- >Call Function **`SendNotifyPush()`**
+
+To Send Call Function **`SendNotifyPush()`**
 
     SendNotifyPush("message","channel","event");
 
