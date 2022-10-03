@@ -193,7 +193,7 @@ where,
 
 **SEND PUSHER NOTIFICATION**
 
-First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and check for the function to server code using PHP. <img scr="https://ourimagehosting.com/image/poMXs" hieght="50px">
+First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and go to `dashboard/Get Started` & check for the function to server code using PHP. <img scr="https://ourimagehosting.com/images/2022/10/03/image.png" hieght="50px">
 
 - >Go to file ***`___dir___/notify/pusher/config.php`***
 - >Paste Your Pusher Server Code There.
