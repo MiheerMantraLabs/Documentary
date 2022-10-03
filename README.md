@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+sdup<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -235,3 +235,20 @@ To Encrypt the data pass you data through a function **`text_encrypt("Your Text 
 To decrypt the data pass you data through a function **`text_decrypt("Your Encrypted Text Goes Here")`**
 
     TEXT_DECRYPT("0nR8web9T0mvcpXx");
+
+## Use Any Posible Databases
+
+We have povided all dbs possible drivers in ***`___dir___/config/database.php`***
+
+- >To Change Database, go to ***`___dir___/config/database.php`***
+- >Customise following and you can add more drivers for multi databases.
+- >Replace db connection from **`default' => env('DB_CONNECTION', 'mysql')`**
+
+For Example 
+
+    default' => env('DB_CONNECTION', 'mysql') => default' => env('DB_CONNECTION', 'mongodb')
+
+- >Provide credentials in <sup>***`.env`***</sup> file
+- >All set.
+
+**Thank you so much to accessing our documentary**
