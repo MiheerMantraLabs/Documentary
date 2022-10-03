@@ -195,6 +195,8 @@ where,
 
 First Go To [Pusher](https://pusher.com/) and register your account & register your project there, and go to `dashboard/Get Started` & check for the function to server code using PHP. <img src="https://ourimagehosting.com/images/2022/10/03/image.png" hieght="20px" width="50px" alt="php-select">
 
+<sup>Must read : Do not run the given composer command....</sup>
+
 - >Go to file ***`___dir___/notify/pusher/config.php`***
 - >Paste Your Pusher Server Code There.
 - >Call Function **`SendNotifyPush()`**
