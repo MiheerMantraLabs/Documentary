@@ -1,4 +1,4 @@
-sdup<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -31,7 +31,7 @@ Laravel Base Project is a a upgraded version of Laravel Framework. We have desig
 
 ## Helpers
 
-Helper is a way which helpes you to access [documentation](https://miheer-mantra.gitbook.io/documentation/) as fast.
+Helper is a way which helpes you to access [documentation](https://github.com/MiheerMantraLabs/Documentary/) as fast.
 - > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20create%3Ahelper-%20-lightgrey" alt="php artisan create:helper">
 - > It will `create` a new fab <img src="https://ourimagehosting.com/images/2022/10/01/image.png" alt="fab" width="35px" hieght="35px">
 - > Install helper using command <img src="https://img.shields.io/badge/php%20artisan%20delete%3Ahelper-%20-lightgrey" alt="php artisan delete:helper">
@@ -236,7 +236,7 @@ To decrypt the data pass you data through a function **`text_decrypt("Your Encry
 
     TEXT_DECRYPT("0nR8web9T0mvcpXx");
 
-## Use Any Posible Databases
+## Use Any Possible Databases
 
 We have povided all dbs possible drivers in ***`___dir___/config/database.php`***
 
@@ -246,7 +246,7 @@ We have povided all dbs possible drivers in ***`___dir___/config/database.php`**
 
 For Example 
 
-    default' => env('DB_CONNECTION', 'mysql') => default' => env('DB_CONNECTION', 'mongodb')
+    default' => env('DB_CONNECTION', 'mysql') <=====> default' => env('DB_CONNECTION', 'mongodb')
 
 - >Provide credentials in <sup>***`.env`***</sup> file
 - >All set.
