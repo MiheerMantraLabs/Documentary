@@ -108,31 +108,10 @@ Notification Config Code
     }
     
 
-Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
+Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer.name,details,keys etc
 
-If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php variables place them as `{$KEY_NAME}`
+If you want replace data of `EMAIL_SUBJECT`or`EMAIL_BODY`dynamically with php variables place them as `${KEY_NAME}`
 
-
-
-**Step : 4 - Preview Email**
-
-Once you created an email template, you can look a preview of your email, using a function ***`preview_notify()`***
-
-    echo preview_notify("folder","template.html",array(
-
-    "Header"=>"Hi, there",
-    "footer"=>"Copyright, 2022"
-
-    ));
-
-where,
-
-***`folder`*** = `folder name of template (ex-default,custom)` <sup>( required)<sup>
-
-***`template.html`*** = `template name (ex-otp_view.html)` <sup>( required)<sup>
-
-
-***`array() with keys`*** = `replacement of section in email (ex-header,footer,body)`
 
 
 
@@ -142,19 +121,21 @@ Once you finished all the steps & after previewing the email theme you are readd
 
 To send the email we have a funtion ***`SendNofityMail()`***
 
-    SendNofityMail('NOTIFICATION_ID',array(
+    SendNofityMail('TO','NOTIFICATION_ID',array(
         "otp" => $otp,
         "name" => $name
-    ),"SUCCESS_MESSAGE");
+    ));
 
 where,
+
+***`to`*** = `to whome you want to send the message` <sup>( required)<sup>
+
 
 ***`notification_id`*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( required)<sup>
 
 
 ***`array() with keys`*** = `replacement of php variables from json in email (ex-{$key_names})`
 
-**`success_message`** = `Custom success message(Ex-EMAIL HAS BEEN SENT ON &email)`
 
 ## Pusher Notification
 
