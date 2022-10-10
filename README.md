@@ -63,39 +63,25 @@ This works for `API ROUTES` only.
 ## E-mail
 
 **Step : 1 - Configer mailer records**
-- >Go to file ***`___dir___/notify/email/config.json`***
+- >Go to file ***`.env`***
 - >Files all the details correct over there from you mail provider in the following way given below : 
 
-    
-
-        "SMTPDebug":"3",
-
-        "SMTPSecure":"tls",
-
-        "SMTPHost":"smtp.mailtrap.io",
-
-        "SMTPPort":"2525",
-
-        "Username":"example@example.com",
-
-        "Password":"___e1a750518f307c___",
-
-        "Sendername":"example@example.com"
-    
-    
+    MAIL_MAILER=smtp
+    MAIL_HOST=smtp.mailtrap.io
+    MAIL_PORT=2525
+    MAIL_USERNAME=8497962f81a386
+    MAIL_PASSWORD=e1a750518f307c
+    MAIL_ENCRYPTION=tls
 
 
 **Step : 2 - Email Templates**
 - > There are two ways to use templates
     - >**FIRST : DEFAULT THEMES**
         - In this method we provides you auto created templates which you can use
-        - To get these templates go to ***`___dir___/storage/notifyTheme/default/`*** and you will get multiples files overthere, which are pre-created themes
-
-    - >**SECOND : CUSTOM THEME**
-        - In this method you can create custom themes in side of ***`___dir___/storage/notifyTheme/custom/`***(If custom folder not available there you can create one)
+        - To get these templates go to ***`___dir___/resources/emailThemes/`*** and you will get multiples files overthere, which are pre-created themes
 
     - >**MUST READ :**
-        - If you want to replace any thing section in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link etc)`*** you can make a key in place of that section as : **`__ __SECTION-NAME__ __`** (Both side double underscore).  
+        - If you want to replace any thing section or variable in the email template dynamically ***`(like : Header,Footer,Body,Banner,Button,Link,name,details etc)`*** you can make a key in place of that section as : **`{!!SECTION-NAME!!} or {!!VARIABLE-NAME!!}`** .  
 
 
 
@@ -106,40 +92,21 @@ This works for `API ROUTES` only.
 Notification Config Code
 
     "N-10001":{
-        
-        "NOTIFICATION_CODE":"N-10001",
-
-        "NOTIFICATION_TYPE":"email",
-
-        "RECIEVER":"miheerpnd@gmail.com",
-
-        "TEMPLATE_SECTION":"default",
-
-        "TEMPLATE_NAME":"otp_view.html",
-
-        "EMAIL_SUBJECT":"Hello miheer",
-
-        "EMAIL_BODY":{
-
+        "TYPE":"email",
+        "VIEW":"emailThemes.otp_view",
+        "SUBJECT":"Hello ${name}",
+        "BODY":{
             "title":"Laravel",
-
-            "welcome":"Hi, there",
-
-            "message":"Your otp for <a>email@email.com </a> is :",
-
+            "welcome":"Hi, ${name}",
+            "messages":"Your otp for <a>email@email.com </a> is :",
             "otp":"000000",
-
             "link":"http://www.laravel.com/",
-
-            "notice":"You have received this mandatory service announcement to updateyou about important changes to Laravel or your account.",
-
-            "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA,231303<br>India",
-
-            "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512laravel_logo_icon_170314.png"
-
+            "notice":"You have received this mandatory service announcement to update you about important changes to Laravel or your account.",
+            "contact":"Laravel LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA, 231303<br>India",
+            "banner":"https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png"
         }
-
     }
+    
 
 Each keys is required expect details inside `EMAIL_BODY` key those are replacable data from template as Header,footer etc
 
