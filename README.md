@@ -66,12 +66,12 @@ This works for `API ROUTES` only.
 - >Go to file ***`.env`***
 - >Files all the details correct over there from you mail provider in the following way given below : 
 
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.mailtrap.io
-    MAIL_PORT=2525
-    MAIL_USERNAME=8497962f81a386
-    MAIL_PASSWORD=e1a750518f307c
-    MAIL_ENCRYPTION=tls
+        MAIL_MAILER=smtp
+        MAIL_HOST=smtp.mailtrap.io
+        MAIL_PORT=2525
+        MAIL_USERNAME=8497962f81a386
+        MAIL_PASSWORD=e1a750518f307c
+        MAIL_ENCRYPTION=tls
 
 
 **Step : 2 - Email Templates**
