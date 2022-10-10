@@ -134,7 +134,7 @@ where,
 ***`notification_id`*** = `JSON NOTIFICATION ID (ex-N-10001)` <sup>( required)<sup>
 
 
-***`array() with keys`*** = `replacement of php variables from json in email (ex-{$key_names})`
+***`array() with keys`*** = `replacement of php variables or sections from json in email (ex-{$key_names})`
 
 
 ## Pusher Notification
