@@ -170,6 +170,21 @@ First Go To [Pusher](https://pusher.com/) and register your account & register y
 - >Customise them accrodingly.
 - >Paste in the blade page where you want to recieve notification.
 
+
+## Send SMS
+
+- >Go to file ***`___dir___/notify/sms/config.php`***
+- >Paste Your SMS API Integration Code There.
+
+To Send Call Function **`SendNofitySms()`**
+
+    SendNotifyPush(array());
+
+where,
+
+***`array`*** = `This is a set of array in case if you want to send any value over there.`
+
+
 ## Encrypt & Decrypt
 
 **How To Encrypt Data**
