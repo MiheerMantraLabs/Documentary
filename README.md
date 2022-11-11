@@ -206,6 +206,10 @@ To decrypt the data pass you data through a function **`text_decrypt("Your Encry
 While development to testing or any thing if you want to change .env file you just need to run a simple command php artisan <img src="https://img.shields.io/badge/php%20artisan%20config%3Acache%20----env%3Dproduction-%20-lightgrey" alt="php artisan config:cache --env=testing
 ">
 
+Here In the given command you just need to specify the env file.
+
+<sup>Must read : When sending to product you have to use .env file only, for that you can change you specific file to .env file & previoue .env file to any other like .env.example</sup>
+
 
 
 ## Use Any Possible Databases
