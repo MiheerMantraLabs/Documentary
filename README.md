@@ -208,7 +208,7 @@ While development to testing or any thing if you want to change .env file you ju
 
 Here In the given command you just need to specify the env file.
 
-<sup>Must read : When sending to product you have to use .env file only, for that you can change you specific file to .env file & previoue .env file to any other like .env.example</sup>
+<sup>Must read : When sending to product to production server you have to use .env file only, for that you can change you specific file to .env file & previoue .env file to any other like .env.example</sup>
 
 
 
