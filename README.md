@@ -199,6 +199,15 @@ To decrypt the data pass you data through a function **`text_decrypt("Your Encry
 
     TEXT_DECRYPT("0nR8web9T0mvcpXx");
 
+## APP_ENV (.env) saperation & configuration
+
+**How to change .env file to .env.APP_ENV file while using development**
+
+While development to testing or any thing if you want to change .env file you just need to run a simple command php artisan <img src="https://img.shields.io/badge/php%20artisan%20config%3Acache%20----env%3Dproduction-%20-lightgrey" alt="php artisan config:cache --env=testing
+">
+
+
+
 ## Use Any Possible Databases
 
 We have povided all dbs possible drivers in ***`___dir___/config/database.php`***
