@@ -51,7 +51,7 @@ To get this logger go to following repository ***`___dir___/storage/logs/logger/
     - >**`_Date_   /   _Time_  /  _Url_    /   _IP_Address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
 
 
-## Api Throttle Limits
+## Custom Errors
 
 This funtion is to help you to organise your errors and customs for any kind of issues.
 You can define them once having any ID and use them again and again by ID only.
@@ -61,11 +61,11 @@ First,
 
 To use  it simply call a function 
 
-        ERROR('N-10001');
+        ERROR('E-10001');
 
 where,
 
-***`N-10001`*** = `is error id` <sup>( required)<sup>
+***`E-10001`*** = `is error id` <sup>( required)<sup>
 
 
 
