@@ -57,7 +57,17 @@ This funtion is to help you to organise your errors and customs for any kind of 
 You can define them once having any ID and use them again and again by ID only.
 First,
 
-- >Go to ***`___dir___/public/storage/errorTheme/errors.json`***  file and set your Error there with their ids.
+- >Go to ***`___dir___/public/storage/errorTheme/errors.json`***  file and set your Error there with their ids in the given manner.
+
+        {
+            "E-10001":{
+                "error_code":"E-10001",
+                "error_key":"invalid_login_credentials",
+                "Type":"Field level",
+                "error_msg":"The entered email or password is incorrect"
+            }
+        }
+
 
 To use  it simply call a function 
 
