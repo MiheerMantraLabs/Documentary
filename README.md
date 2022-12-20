@@ -57,7 +57,7 @@ This funtion is to help you to organise your errors and customs for any kind of 
 You can define them once having any ID and use them again and again by ID only.
 First,
 
-- >Go to ***`___dir___/public/storage/errorTheme/errors.json`***  file and set your Error there with their ids in the given manner.
+- >Go to ***`___dir___/storage/errorTheme/errors.json`***  file and set your Error there with their ids in the given manner.
 
         {
             "E-10001":{
