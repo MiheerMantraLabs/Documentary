@@ -50,6 +50,25 @@ To get this logger go to following repository ***`___dir___/storage/logs/logger/
 - >Details are store in the given ways : 
     - >**`_Date_   /   _Time_  /  _Url_    /   _IP_Address_    /    _Req_Methods_  /   _Req_Datas_     /   _Header_Data_`**
 
+
+## Api Throttle Limits
+
+This funtion is to help you to organise your errors and customs for any kind of issues.
+You can define them once having any ID and use them again and again by ID only.
+First,
+
+- >Go to ***`___dir___/public/storage/errorTheme/errors.json`***  file and set your Error there with their ids.
+
+To use  it simply call a function 
+
+        ERROR('N-10001');
+
+where,
+
+***`N-10001`*** = `is error id` <sup>( required)<sup>
+
+
+
 ## Api Throttle Limits
 
 This function newly introduced in laravel base project which is designed to limit yours apis throttles as such.
