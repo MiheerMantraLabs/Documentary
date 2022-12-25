@@ -43,6 +43,7 @@ This function provides you advance logging system.
 To get this logger go to following repository ***`___dir___/storage/logs/logger/`*** and you can see all the logged of the days is stored.
 
 **How to implement :**
+- >Go to repo ***`___dir___/public/config.php`*** and setup your logging permissions 
 - >Go to repo ***`___dir___/storage/logs/logger/`*** 
 - >Go to file of particular date.
 - >File formated as (For REQUESTED DATA) : **`date___LOG_Request.txt`**
@@ -85,7 +86,7 @@ This function newly introduced in laravel base project which is designed to limi
 This works for `API ROUTES` only.
 
 **How to implement :**
-- >Go to ***`___dir___/public/config.json`***  file and set your limit in integer form.
+- >Go to ***`___dir___/public/config.php`***  file and set your limit in integer form.
 - >To check number of throttles of particuler api routes go to ***`___dir___/storage/Throttle`*** open api files as such.
 - >File formated as : **`file_name___date___THROTTLE.txt`**
 
